@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/pic2.png);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+}
+
+nav {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #000000;
+    font-size: larger;
+}
+
+.login-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-name {
+    font-weight: larger;
+    color: #000000;
+}
+
+.login-btn {
+    text-decoration: none;
+    color: #333333eb;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.download-btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #df4881, #c430d7);
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+}
+
+.content {
+    margin-top: 10%;
+    max-width: 600px;
+}
+
+.content h1 {
+    font-size: 70px;
+    color: #222;
+}
+
+.content p {
+    margin: 10px 0 30px;
+    color: #333;
+    animation-delay: 0.5s;
+}
+
+.content .btn {
+    padding: 15px 80px;
+    font-size: 16px;
+    animation-delay: 1s;
+}
+
+.btn:hover,
+.download-btn:hover {
+    background-color: greenyellow;
+
+}
+
+.features-img {
+    width: 530px;
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+
+}
+
+.features-img.anim {
+    animation-delay: 1.5s;
+}
+
+.anim {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+
+.btn {
+    background-color: #c55781;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: medium;
+}
+
+.anim {
+    color: #333;
+    font-size: larger;
+}
+
+.content a {
+    color: #fff;
+}
+
+@keyframes moveup {
+    100% {
+        opacity: 1;
+        transform: translateY(1px);
+
+    }
+}
+
+.about-section {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    border: #612069 solid 2px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    color: #8b4f92;
+}
+
+#about {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-section{
+    background-color: #ecccd8;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    padding: 20px;
+    font-size: large;
+}
+
+footer {
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+} 
+
+
+.girls-page{
+    width: 800px;
+    background-color: #F08982;
+    margin: 20px auto;
+    padding: 30px;
+    opacity: 0.9;
+    border-radius: 15px;
+}
+
+.toy-images{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+figcaption{
+    background-color: #A981B6;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+.boys-page{
+    width: 800px;
+    background-color: #A9EBFB;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+
+.sub-heading{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+figcaption{
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
